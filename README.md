@@ -33,3 +33,29 @@ For this project we need these assets & registry from unity:
   *  This will stop the Editor playing and open the RunTraffic scene.
 * Click [Play Scene RunTraffic]
   * Once the scene loads, you will see traffic and pedestrians moving.
+ 
+## Steps to follow any vehicle or pedestrian in Play Mode
+* Pause the Editor Player (It'll help you to select the vehicle easily)
+* Click on a vehicle game object
+  * e.g. RunTraffic Scene/ VRoadTraffic/ Cars/ [Select any car number]
+* Now play the editor (It'll automatically zoom the map and show you the vehicle running you have selected.)
+* example videos: 
+
+
+
+https://user-images.githubusercontent.com/87566721/213423763-31b5ea92-7bf0-459d-9d4c-5a873e18c483.mp4
+
+
+
+
+https://user-images.githubusercontent.com/87566721/213424565-15c622eb-c0c6-4e02-a497-2d398c141638.mp4
+
+
+
+ ## Steps to customize the buildings in different textures and shapes
+ *  For this we need to create Multiple Meshes because earlier the each layer in the scene was a single mesh.
+ *  For multiple meshes we need to build the map again, but this time, go to the [Options] -> [Create Multiple Meshes] -> [Rebuild] -> tap on [...] -> select cached osm file in json format -> [Play scene 'BuildMap' to rebuild map]. (It'll take some time).
+ *  This will create a separate mesh in its own game object for each road, each junction, each building, etc.
+ *  You can save meshes for all of the objects to a prefab that you can use later. (optional)
+ *  After this you would be able to see 
+ 
