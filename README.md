@@ -33,3 +33,4 @@ For this project we need these assets & registry from unity:
   *  This will stop the Editor playing and open the RunTraffic scene.
 * Click [Play Scene RunTraffic]
   * Once the scene loads, you will see traffic and pedestrians moving.
+
